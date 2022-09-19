@@ -9,13 +9,6 @@ html {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-/* body {
-    height: 100%;
-} */
-
-:visited {
-    color: auto;
-}
 
 
 header {
@@ -28,7 +21,7 @@ header {
 
 
 .logo {
-    width: 100px;
+    width: 105px;
 }
 
 
@@ -83,7 +76,7 @@ header {
 
 .welcome-paragraph {
     max-width: 45%;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     color: white;
     font-size: 15px;
     font-weight: 500;
