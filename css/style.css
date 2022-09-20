@@ -16,7 +16,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 15px;
-    background-color: #255ee9; 
+    background-color: #255ee9;
 }
 
 
@@ -41,7 +41,7 @@ header {
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 
@@ -50,7 +50,7 @@ header {
     font-size: 0.7em;
     font-weight: 400;
     color: #23272a;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .welcome {
@@ -62,7 +62,7 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position-y: -20px;
-    
+
 }
 
 
@@ -81,7 +81,7 @@ header {
     font-size: 15px;
     font-weight: 500;
     text-align: center;
-    line-height: 25px;  
+    line-height: 25px;
 }
 
 .button-welcome-block {
@@ -90,7 +90,7 @@ header {
 
 }
 
-.button-welcome {
+.button {
     height: 37px;
     border-radius: 20px;
 }
@@ -104,7 +104,7 @@ header {
     background-color: #23272a;
 }
 
-.button-welcome-text {
+.button-text {
     text-align: center;
     vertical-align: middle;
     line-height: 37px;
@@ -114,11 +114,11 @@ header {
     font-weight: 500;
 }
 
-#white .button-welcome-text {
+#white .button-text {
     color: #23272a;
 }
 
-#black .button-welcome-text {
+#black .button-text {
     color: white;
 }
 
@@ -129,13 +129,12 @@ header {
 .section {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
     padding: 70px 0 70px 0;
 }
 
 .section-pic {
-    width: 40% ;
+    width: 40%;
 }
 
 .section-text {
@@ -143,46 +142,142 @@ header {
 }
 
 .section-title {
-    font-size: 40px;
-}
-
-.section-paragraph {
-    max-width: 70%;
-    margin-top: 25px;
-    font-size: 15px;
-    line-height: 160%;
-
-}
-
-
-
-
-/* .section-text {
-    flex-basis: 30%;
-    margin-left: -160px;
-
-}
-
-.section-title {
-    max-width: 85%;
-    font-size: 40px;
-    line-height: 110%;
-
+    max-width: 60%;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 100%;
 }
 
 .section-paragraph {
     max-width: 75%;
+    margin-top: 25px;
     font-size: 15px;
     line-height: 160%;
-    margin-top: 25px;    
-} 
+}
 
-
-.section.second {
-    background-color: lightgrey
+.last-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0 70px 0;
 }
 
 
-.section-pic.second {
-    width: 40%;
-    /* margin-left: 70px; */
+.last-section-text {
+    max-width: 59%;
+    
+
+}
+
+.last-section-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.last-section-paragraph {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.last-section-pic {
+    width: 85%;
+}
+
+.cta-container {
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+    background-origin: border-box;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+.cta {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#blue {
+    background-color: #7289da;
+}
+
+#blue .button-text {
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #23272a;
+}
+
+
+.footer-first {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 50px 20px 50px;
+    
+
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #465279;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-list-title.big {
+    max-width: 70%;
+    font-size: 25px;
+    font-weight: 700;
+    color: #7289da;
+}
+
+.ita-flag {
+    width: 17px;
+}
+
+.ita-text {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.social-logo {
+    margin-right: 15px;
+}
+
+.footer-list-title.small {
+    font-size: 15px;
+    font-weight: 500;
+    color: #7289da;
+}
+
+.footer-list.final li {
+    margin-bottom: 15px;
+}
+
+.logo-footer {
+    margin-top: 15px;
+}
+
+.button.footer {
+    margin-top: 15px;
+    background-color:#7289da;
+}
