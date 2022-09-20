@@ -9,7 +9,13 @@ html {
     font-family: 'Red Hat Text', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
+a:visited:not(#button-header-text) {
+    color: white;
+}
 
 header {
     display: flex;
@@ -17,11 +23,6 @@ header {
     align-items: center;
     padding: 15px;
     background-color: #255ee9;
-}
-
-
-.logo {
-    width: 105px;
 }
 
 
@@ -33,24 +34,30 @@ header {
     margin: 15px;
 }
 
-
-.button-header {
-    flex-basis: 55px;
-    height: 30px;
-    border-radius: 15px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button {
+    height: 100%;
+    border-radius: 20px;
 }
 
-
-.button-header-text {
-
-    font-size: 0.7em;
-    font-weight: 400;
-    color: #23272a;
+.button-text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 37px;
+    padding: 8px 13px 8px 13px;
     text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#white-header {
+    background-color: white;
+    font-weight: 300;
+    color:#23272a;
+}
+
+#button-header-text {
+    color:#23272a;
+    font-weight: 400;
 }
 
 .welcome {
@@ -62,10 +69,7 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position-y: -20px;
-
 }
-
-
 
 .welcome-title {
     margin-bottom: 20px;
@@ -87,44 +91,34 @@ header {
 .button-welcome-block {
     display: flex;
     justify-content: center;
-
 }
 
-.button {
-    height: 37px;
-    border-radius: 20px;
-}
-
-#white {
+#white-welcome {
     margin-right: 15px;
     background-color: white;
 }
 
-#black {
+#black-welcome {
     background-color: #23272a;
 }
 
-.button-text {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 37px;
-    padding: 10px 15px 10px 15px;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-#white .button-text {
+#white-welcome .button-text {
     color: #23272a;
 }
 
-#black .button-text {
+#black-welcome .button-text {
     color: white;
 }
 
 .fa-long-arrow-down {
+    color: #23272a;
     margin-right: 5px;
 }
+
+.black-welcome {
+    color: #23272a;
+}
+
 
 .section {
     display: flex;
@@ -142,7 +136,7 @@ header {
 }
 
 .section-title {
-    max-width: 60%;
+    max-width: 65%;
     font-size: 2em;
     font-weight: 600;
     line-height: 100%;
@@ -156,7 +150,15 @@ header {
 }
 
 .section-text.first {
-    margin-top: 20px;
+    margin-top: 25px;
+}
+
+.section-text.second {
+    margin-top: 35px;
+}
+
+.section-text.third {
+    margin-top: 25px;
 }
 
 .section.second, .last-section {
@@ -165,14 +167,12 @@ header {
 
 .wave {
     fill: #f5f5f5;
-    margin-bottom: 0;
+    display: block;
 }
 
 .wave.rotate {
     transform: rotate(180deg);
-    
 }
-
 
 .last-section {
     display: flex;
@@ -185,11 +185,10 @@ header {
 
 .last-section-text {
     max-width: 59%;
-    
-
 }
 
 .last-section-title {
+
     text-align: center;
     font-size: 2em;
     font-weight: 600;
@@ -197,6 +196,7 @@ header {
 
 .last-section-paragraph {
     text-align: center;
+    line-height: 160%;
     margin-top: 25px;
 }
 
@@ -219,31 +219,22 @@ header {
     font-weight: 700;
 }
 
-#blue {
+#blue-last-section {
     background-color: #7289da;
 }
 
-#blue .button-text {
+#blue-last-section .button-text {
     color: white;
 }
-
-
-a {
-    text-decoration: none;
-}
-
 
 footer {
     background-color: #23272a;
 }
 
-
 .footer-first {
     display: flex;
     justify-content: space-around;
     padding: 50px 50px 20px 50px;
-    
-
 }
 
 .footer-end {
@@ -253,7 +244,6 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 30px;
-
 }
 
 .footer-list {
@@ -263,8 +253,7 @@ footer {
 }
 
 .footer-list-title.big {
-    max-width: 70%;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     color: #7289da;
 }
@@ -283,14 +272,14 @@ footer {
     margin-right: 15px;
 }
 
-.footer-list-title.small {
-    font-size: 15px;
+#small-title {
     font-weight: 500;
     color: #7289da;
 }
 
 .footer-list.final li {
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .logo-footer {
@@ -300,8 +289,5 @@ footer {
 .button.footer {
     margin-top: 15px;
     background-color:#7289da;
-}
-
-a:visited:not(.button-header-text) {
-    color: white;
+    height: 100%;
 }
