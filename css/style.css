@@ -281,3 +281,7 @@ footer {
     margin-top: 15px;
     background-color:#7289da;
 }
+
+a:visited:not(.button-header-text) {
+    color: white;
+}
