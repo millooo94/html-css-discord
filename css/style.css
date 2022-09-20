@@ -67,7 +67,7 @@ header {
 
 
 
-.title1 {
+.welcome-title {
     margin-bottom: 20px;
     color: white;
     font-size: 40px;
@@ -126,5 +126,63 @@ header {
     margin-right: 5px;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 0 70px 0;
+}
+
+.section-pic {
+    width: 40% ;
+}
+
+.section-text {
+    max-width: 30%;
+}
+
+.section-title {
+    font-size: 40px;
+}
+
+.section-paragraph {
+    max-width: 70%;
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 160%;
+
+}
 
 
+
+
+/* .section-text {
+    flex-basis: 30%;
+    margin-left: -160px;
+
+}
+
+.section-title {
+    max-width: 85%;
+    font-size: 40px;
+    line-height: 110%;
+
+}
+
+.section-paragraph {
+    max-width: 75%;
+    font-size: 15px;
+    line-height: 160%;
+    margin-top: 25px;    
+} 
+
+
+.section.second {
+    background-color: lightgrey
+}
+
+
+.section-pic.second {
+    width: 40%;
+    /* margin-left: 70px; */
