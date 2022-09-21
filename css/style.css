@@ -207,7 +207,7 @@ header {
 .cta-container {
     background-image: url("../img/stars.svg");
     background-size: 100%;
-    background-position-x: 0;
+    background-position-x: 9px;
     background-position-y: -6px;
     height: 20px;
     padding: 20px;
