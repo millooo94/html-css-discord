@@ -25,6 +25,13 @@ header {
     background-color: #255ee9;
 }
 
+.link-header-container {
+    flex-shrink: 0;
+    transform: ;
+}
+
+tra
+
 
 .link-header {
     text-decoration: none;
@@ -207,7 +214,7 @@ header {
 .cta-container {
     background-image: url("../img/stars.svg");
     background-size: 100%;
-    background-position-x: 9px;
+    background-position-x: 20px;
     background-position-y: -6px;
     height: 20px;
     padding: 20px;
@@ -295,3 +302,46 @@ footer {
     background-color:#7289da;
     height: 100%;
 }
+
+
+
+
+/* header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: space;
+    gap: 20rem;
+    padding: 1.3rem 8rem 1.3rem 8rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: orange;
+    flex-wrap: nowrap;
+} */
+
+
+/* .header-logo {
+    width: 150px
+}
+
+
+.header-icon {
+
+    max-width: 200px;
+
+}
+
+.header-text-block {
+
+    max-width: 200px;
+    margin-left: auto;
+}
+
+.header-icon-block {
+    
+    max-width: 200px;
+    margin-right: auto;
+} */
